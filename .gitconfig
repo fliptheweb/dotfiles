@@ -5,7 +5,7 @@
 	excludesfile = ~/.gitignore
 [github]
 	user = fliptheweb
-	token = token-here
+	token = 508d5e2b3dccb986cbda9d2162f2f474
 [alias]
   co = checkout
   ci = commit
