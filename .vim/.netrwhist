@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/opt/local/etc/LaunchDaemons/org.macports.nginx'
+let g:netrw_dirhist_2='/usr/local/bin'
+let g:netrw_dirhist_3='/private/var/www/redmine/www/.git/branches'
+let g:netrw_dirhist_4='/Users/fliptheweb/.config'
