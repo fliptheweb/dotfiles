@@ -58,3 +58,4 @@ export APPLICATION_MODE=dev_fliptheweb
 # Aliases
 alias cppwd='pwd | pbcopy'
 alias rm='trash'
+alias ia="open $1 -a /Applications/iA\ Writer.app"
