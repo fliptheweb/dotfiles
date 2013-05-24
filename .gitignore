@@ -1,16 +1,1 @@
-# OS generated files #
-######################
-.DS_Store*
-ehthumbs.db
-Icon?
-Thumbs.db
-
-# My files #
-######################
-.idea
-.livereload
-.project
-*.iml
-*.sublime-project
-*.sublime-workspace
-.sass-cache
+.githubconfig

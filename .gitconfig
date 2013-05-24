@@ -3,9 +3,8 @@
 	email = itisshortemailaddress@gmail.com
 [core]
 	excludesfile = ~/.gitignore
-[github]
-	user = fliptheweb
-	token = token
+[include]
+	path = .githubconfig
 [alias]
   co = checkout
   ci = commit
