@@ -56,6 +56,8 @@ export PATH=/Applications/Postgres.app/Contents/MacOS/bin:$PATH
 export APPLICATION_MODE=dev_fliptheweb
 
 # Aliases
-alias cppwd='pwd | pbcopy'
-alias rm='trash'
-alias ia="open $1 -a /Applications/iA\ Writer.app"
+if [[ "$OSTYPE" == darwin* ]]; then
+	alias cppwd='pwd | pbcopy'
+	alias rm='trash'
+	alias ia="open $1 -a /Applications/iA\ Writer.app"
+fi
