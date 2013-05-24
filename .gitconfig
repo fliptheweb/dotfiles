@@ -2,7 +2,7 @@
 	name = Artur Kornakov
 	email = itisshortemailaddress@gmail.com
 [core]
-	excludesfile = ~/.gitignore
+	excludesfile = ~/.gitignoreglobal
 [include]
 	path = .githubconfig
 [alias]
