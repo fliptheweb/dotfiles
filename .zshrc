@@ -50,6 +50,7 @@ export PATH=/usr/local/bin:$PATH
 export PATH=/usr/local/sbin:$PATH
 export PATH=/usr/local/share/npm/bin:$PATH
 export PATH=/Applications/Postgres.app/Contents/MacOS/bin:$PATH
+export PATH=$HOME/.rvm/bin:$PATH # Add RVM to PATH for scripting
 # export PATH=/usr/local/etc/play:$PATH
 # export PATH=/usr/local/Cellar:$PATH
 
