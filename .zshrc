@@ -61,4 +61,6 @@ if [[ "$OSTYPE" == darwin* ]]; then
 	alias cppwd='pwd | pbcopy'
 	alias rm='trash'
 	alias ia="open $1 -a /Applications/iA\ Writer.app"
+	alias php_on='launchctl load ~/Library/LaunchAgents/homebrew-php.josegonzalez.php54.plist'
+	alias php_off='launchctl unload ~/Library/LaunchAgents/homebrew-php.josegonzalez.php54.plist'
 fi
