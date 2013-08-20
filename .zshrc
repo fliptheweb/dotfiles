@@ -64,7 +64,8 @@ if [[ "$OSTYPE" == darwin* ]]; then
 	alias load-php='launchctl load ~/Library/LaunchAgents/homebrew-php.josegonzalez.php54.plist'
 	alias unload-php='launchctl unload ~/Library/LaunchAgents/homebrew-php.josegonzalez.php54.plist'
 	alias restart-php='unload-php; load-php'
-	alias load-nginx='sudo launchctl load -w /Library/LaunchDaemons/nginx.plist'
-	alias unload-nginx='sudo launchctl unload /Library/LaunchDaemons/nginx.plist'
+	alias load-nginx='sudo launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.nginx.plist'
+	alias unload-nginx='sudo launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.nginx.plist'
 	alias restart-nginx='unload-nginx; load-nginx'
 fi
+
