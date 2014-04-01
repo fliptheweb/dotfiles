@@ -1,16 +1,18 @@
 [user]
-	name = Artur Kornakov
+	name = fliptheweb
 	email = itisshortemailaddress@gmail.com
 [core]
 	excludesfile = ~/.gitignoreglobal
+	editor = /usr/bin/vim
 [include]
 	path = .githubconfig
 [alias]
   co = checkout
-  ci = commit
+  ci = commit -am
   st = status
   br = branch
-  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	sync = "!f(){ git pull --rebase; git push; };f"
   download = "!f() { git clone --depth 1 $1 ./git-download-tmp/; rm -rf git-download-tmp/.git/; rm git-download-tmp/*/.gitkeep; cp -r git-download-tmp/* ./; rm -rf git-download-tmp; }; f"
         # Clone a repository including all submodules
 	c = clone --recursive
@@ -54,3 +56,6 @@
 	insteadOf = "gist:"
 [credential]
 	helper = osxkeychain
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
